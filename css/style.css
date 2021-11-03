@@ -38,6 +38,7 @@ main {
     right: 0;
     line-height: 85px;
     text-align: end;
+    padding-right: 3px;
 }
 
 .upgrade .btn {
@@ -48,6 +49,10 @@ main {
     padding: 5px 20px;
     font-size: 0.8em;
     border-radius: 20px;
+}
+
+.upgrade .btn:hover {
+    scale: 1.1;
 }
 
 
