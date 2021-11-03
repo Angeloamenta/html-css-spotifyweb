@@ -336,8 +336,22 @@ nav h1 {
 /* footer */
 footer {
     display: flex;
-    z-index: 9;
     width: 100%;
     height: 80px;
     background-color: #282828;
+}
+
+.footer-sx {
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+.footer-center {
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.footer-dx {
+    background-color: darkgoldenrod;
+    flex-grow: 1;
 }
