@@ -207,7 +207,9 @@ nav h1 {
     background-color: #141922;
     overflow: auto;
 }
-
+.central .sub-central {
+    /* display: flex; */
+}
 .sub-central .flex {
     justify-content: center;
 }
@@ -235,6 +237,47 @@ nav h1 {
 .central .sub-central ul li a:hover {
     color: white;
 }
+
+/* central list */
+
+.title-list-top {
+    margin: 20px;
+}
+
+.title-list-top h2 {
+    color: white;    
+}
+
+ .list-top .top-list {
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+}
+
+.list-top .top-list {
+    margin-left: 15px;
+}
+
+.list-img img {
+    width: 200px;
+}
+
+.top-list .list-title {
+    margin-top: 10px;
+}
+
+.top-list .list-title a {
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.top-list .list-sub {
+    color: #A3A3A3;
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+
 
 /* footer */
 footer {
