@@ -48,6 +48,7 @@ main {
     text-transform: uppercase;
     padding: 5px 20px;
     font-size: 0.8em;
+    font-weight: 600;
     border-radius: 20px;
 }
 
@@ -63,6 +64,23 @@ nav {
     background-color: black;
 }
 
+.nav-title {
+    width: 100%;
+    height: 85px;
+    align-items: center;
+}
+
+.nav-title img {
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+nav h1 {
+    color: white;
+}
+
+/* central */
 .central {
     height: 100%;
     width: calc(100% - 200px);
