@@ -19,6 +19,7 @@ ul {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* container */
@@ -250,8 +251,37 @@ nav h1 {
 
  .list-top .top-list {
     flex-direction: column;
-    width: fit-content;
+    width: 200px;
+    position: relative;
+    /* width: fit-content; */
     text-align: center;
+}
+.relative {
+    position: relative;
+}
+
+.bk-gr {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.list-img:hover .bk-gr {
+    display: block;
+}
+
+.fa-circle-play {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .list-top .top-list {
@@ -260,6 +290,13 @@ nav h1 {
 
 .list-img img {
     width: 200px;
+}
+
+.list-img a {
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .top-list .list-title {
