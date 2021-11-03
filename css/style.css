@@ -148,7 +148,7 @@ nav h1 {
     color: white;
 }
 
-.nav-center .playlist-sub afixed-nav {
+.nav-center .playlist-sub a{
     font-size: 0.8em;
     color: #A3A3A3;
 }
@@ -264,6 +264,10 @@ nav h1 {
 
 .central-top .list-top {
     display: flex;
+}
+
+.central-top ul li {
+    width: 160px;
 }
 
  .list-top .top-list {
