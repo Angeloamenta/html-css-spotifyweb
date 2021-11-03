@@ -56,7 +56,6 @@ main {
     text-transform: uppercase;
     padding: 5px 20px;
     font-size: 0.8em;
-    font-weight: 600;
     border-radius: 20px;
 }
 
@@ -113,8 +112,13 @@ nav h1 {
 }
 
 .nav-top ul li a {
-    color: lightgray;
+    color: #A3A3A3;
     font-size: 0.7em;
+    font-weight: bolder;
+}
+
+.nav-top ul li a:hover {
+    color: white;
 }
 
 .nav-center {
