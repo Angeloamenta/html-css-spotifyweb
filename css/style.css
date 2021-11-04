@@ -361,6 +361,11 @@ nav h1 {
     color: #A3A3A3;
 }
 
+/* bottom-row */
+
+.round {
+    border-radius: 50%;
+}
 
 
 /* footer */
