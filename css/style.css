@@ -238,9 +238,7 @@ nav h1 {
     overflow: auto;
     padding-bottom: 25px;
 }
-.central .sub-central {
-    /* display: flex; */
-}
+
 .sub-central .flex {
     justify-content: center;
     flex-wrap: wrap;
