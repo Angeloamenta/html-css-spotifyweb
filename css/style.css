@@ -140,6 +140,7 @@ nav h1 {
 .nav-center .overflow {
     height: 30vh;
     overflow:auto;
+    padding: 10px 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
