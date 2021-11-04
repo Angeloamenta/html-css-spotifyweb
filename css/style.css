@@ -205,7 +205,10 @@ nav h1 {
     border-radius: 50%;
     background-color:#A3A3A3 ;
 }
-
+.line img,
+.nav-name img {
+    margin-right: 10px;
+}
 .nav-bottom .nav-name a {
     color: white;
     font-size: 0.9em;
@@ -499,6 +502,7 @@ footer {
     height: 100%;
     align-items: center;
     justify-content: space-between;
+    min-width: 50px;
 }
 
 
