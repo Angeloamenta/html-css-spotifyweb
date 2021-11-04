@@ -86,7 +86,7 @@ nav {
 }
 
 .nav-title img {
-    width: 30px;
+    width: 35px;
     margin-left: 15px;
     margin-right: 5px;
 }
@@ -558,6 +558,11 @@ footer {
 @media screen and (max-width: 600px) {
     nav {
         width: 50px;
+        
+    }
+
+    .nav-title img {
+        margin-left: 10px;
         
     }
 
