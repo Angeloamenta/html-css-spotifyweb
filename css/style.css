@@ -277,7 +277,7 @@ nav h1 {
 
 
 .title-list-top h2 {
-    color: white;    
+    color: white;
 }
 
 .central-top .list-top {
@@ -430,11 +430,11 @@ footer {
 
 .sx-sx .ft-sub:hover {
     color: white;
-} 
+}
 
 .sx-dx ul li a:hover {
     color: white;
-} 
+}
 
 /* footer center */
 .footer-center {
@@ -475,7 +475,7 @@ footer {
 
 .center-top ul li a:hover {
     color: white;
-} 
+}
 
 .footer-center .center-bottom {
     height: 50%;
@@ -546,7 +546,7 @@ footer {
 
 .footer-dx ul li a:hover {
     color: white;
-} 
+}
 
 .footer-dx ul li:last-child {
     width: 50%;
@@ -555,20 +555,91 @@ footer {
 
 /* media */
 
+@media screen and (max-width: 1300px) {
+    .central-top ul li {
+        width: 140px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .central-top ul li {
+        width: 120px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 120px;
+    }
+}
+
+/* @media screen and (max-width: 1150px) {
+    .central-top ul li {
+        width: 100px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 100px;
+    }
+} */
+
+/* @media screen and (max-width: 900px) {
+    .central-top ul li {
+        width: 100px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 100px;
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .central-top ul li {
+        width: 160px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 160px;
+    }
+}
+
+/* 600 */
 @media screen and (max-width: 600px) {
     nav {
         width: 50px;
-        
+
     }
 
     .nav-title img {
         margin-left: 10px;
-        
+
     }
 
     .central {
         width: calc(100% - 50px);
-       
+
     }
 
     .upgrade {
@@ -587,7 +658,7 @@ footer {
         display: none;
     }
 
-    
+
     .nav-bottom .line {
         margin: 0 auto;
         display: flex;
@@ -596,12 +667,12 @@ footer {
         padding-bottom: 10px;
         border-bottom: none;
     }
-    
+
     .nav-bottom .nav-name {
        display: flex;
        justify-content: center;
     }
-    
+
     .line img,
     .nav-name img {
         margin-right: 0px;
@@ -610,7 +681,18 @@ footer {
     .nav-bottom .nav-name img {
         width: 30px;
         height: 30px;
-        
-        
+
+
+    }
+    .central-top ul li {
+        width: 200px;
+    }
+    .top-list .list-title a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .list-img img {
+        width: 200px;
     }
 }
