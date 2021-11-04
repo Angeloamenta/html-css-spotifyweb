@@ -294,7 +294,7 @@ nav h1 {
     display: block;
 }
 
-.fa-circle-play {
+.bk-gr .fa-circle-play {
     position: absolute;
     color: white;
     font-size: 4em;
@@ -394,11 +394,43 @@ footer {
     color: #A3A3A3;
 }
 
+/* footer center */
 .footer-center {
     background-color: aqua;
     flex-grow: 4;
+    display: flex;
+    flex-direction: column;
 }
 
+
+
+.footer-center .center-top {
+    background-color: tomato;
+}
+
+.footer-center .center-top ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-center .center-top ul a {
+    color: #A3A3A3;
+    font-size: 1.2em;
+}
+.center-top ul li a .fa-circle-play {
+    color: white;
+    font-size: 1.5em;
+}
+
+.footer-center .center-bottom {
+    background-color: darkgreen;
+}
+
+
+/* footer dx */
 .footer-dx {
     background-color: darkgoldenrod;
     flex-grow: 1;
