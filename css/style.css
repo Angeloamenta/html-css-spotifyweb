@@ -529,3 +529,34 @@ footer {
 .footer-dx ul li:last-child {
     width: 50%;
 }
+
+
+/* media */
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 50px;
+        
+    }
+
+    .central {
+        width: calc(100% - 50px);
+       
+    }
+
+    .upgrade {
+        width: calc(100% - 50px);
+    }
+
+    .nav-top ul li a {
+        display: none;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-bottom div a {
+        display: none;
+    }
+}
