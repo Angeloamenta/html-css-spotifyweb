@@ -225,6 +225,7 @@ nav h1 {
 }
 .sub-central .flex {
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .central .sub-central ul li {
@@ -264,6 +265,7 @@ nav h1 {
 
 .central-top .list-top {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .central-top ul li {
