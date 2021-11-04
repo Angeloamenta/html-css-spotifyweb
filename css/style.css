@@ -167,6 +167,17 @@ nav h1 {
     font-size: 0.7em;
 }
 
+
+
+.nav-center .playlist-sub:hover *,
+.nav-center .playlist-sub i:hover {
+    color: white;
+}
+
+.nav-center ul li a:hover {
+    color: white;
+}
+
 /* nav-bottom */
 .nav-bottom {
     width: 100%;
