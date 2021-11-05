@@ -118,6 +118,7 @@ nav h1 {
 
 .nav-top ul li img {
     width: 25px;
+    opacity: 0.5;
 }
 
 .nav-top ul li a {
@@ -128,6 +129,10 @@ nav h1 {
 
 .nav-top ul li a:hover {
     color: white;
+}
+
+.nav-top ul li:hover img {
+    opacity: 1;
 }
 
 /* nav-center */
@@ -694,5 +699,10 @@ footer {
     }
     .list-img img {
         width: 200px;
+    }
+
+    /* footer */
+    .sx-dx ul{
+        flex-direction: column;
     }
 }
