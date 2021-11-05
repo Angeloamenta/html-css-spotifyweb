@@ -624,7 +624,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .central-top ul li {
-        width: calc(100% / 4)
+        width: calc(100% / 3)
     }
     .top-list .list-title a {
         color: white;
