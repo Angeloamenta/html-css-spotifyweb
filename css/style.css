@@ -626,6 +626,11 @@ footer {
     .central-top ul li {
         width: calc(100% / 3)
     }
+
+    .central-top .list-top {
+        justify-content: center;
+    }
+
     .top-list .list-title a {
         color: white;
         font-size: 0.8em;
